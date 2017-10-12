@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  ScanDemo
+//
+//  Created by Caoyq on 16/4/7.
+//  Copyright © 2016年 Caoyq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif
